@@ -48,7 +48,7 @@ def update_data():
         calibration_params = None 
     
     # 2초마다 갱신 
-    root.after(2000, update_data)
+    root.after(1000, update_data)
 
 # 2. GUI 디자인 설정 
 root = tk.Tk()
