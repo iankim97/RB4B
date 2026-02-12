@@ -47,7 +47,7 @@ def update_data():
         status_label.config(text=f"센서 오류: 연결을 확인하세요", fg="red")
         calibration_params = None 
     
-    # 2초마다 갱신 
+    # 1초마다 갱신 
     root.after(1000, update_data)
 
 # 2. GUI 디자인 설정 
